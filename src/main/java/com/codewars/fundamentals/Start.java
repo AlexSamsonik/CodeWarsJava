@@ -106,6 +106,9 @@ public class Start {
 //        // Playing with digits
 //        System.out.println(DigPow.digPow(46288, 3));
 
+//        // Dubstep
+//        System.out.println(Dubstep.SongDecoder("WUBWUBABCWUB"));
+
         System.out.println("BinaryRegexp doesn't working. Return value is " + BinaryRegexp.multipleOf3().matcher("000").matches());
     }
 }
