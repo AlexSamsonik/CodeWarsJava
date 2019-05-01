@@ -1,6 +1,5 @@
 package com.codewars.fundamentals;
 
-import com.codewars.fundamentals.number.FindOutlier;
 import com.codewars.fundamentals.word.BinaryRegexp;
 
 public class Start {
@@ -101,8 +100,11 @@ public class Start {
 //        // Persistent Bugger
 //        System.out.println(Persist.persistence(25));
 
-        // Find The Parity Outlier
-        System.out.println(FindOutlier.find(new int[] {2,6,8,-10,3}));
+//        // Find The Parity Outlier
+//        System.out.println(FindOutlier.find(new int[] {2,6,8,-10,3}));
+
+//        // Playing with digits
+//        System.out.println(DigPow.digPow(46288, 3));
 
         System.out.println("BinaryRegexp doesn't working. Return value is " + BinaryRegexp.multipleOf3().matcher("000").matches());
     }
