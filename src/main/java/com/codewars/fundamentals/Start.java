@@ -97,6 +97,9 @@ public class Start {
 //        long stopTimeB = System.nanoTime();
 //        System.out.println("CodeWars time is equals " + (stopTimeB - startTimeB));
 
+//        // Persistent Bugger
+//        System.out.println(Persist.persistence(25));
+
         System.out.println("BinaryRegexp doesn't working. Return value is " + BinaryRegexp.multipleOf3().matcher("000").matches());
     }
 }
