@@ -109,6 +109,9 @@ public class Start {
 //        // Dubstep
 //        System.out.println(Dubstep.SongDecoder("WUBWUBABCWUB"));
 
+//        // Your order, please
+//        System.out.println(Order.order("is2 Thi1s T4est 3a"));
+
         System.out.println("BinaryRegexp doesn't working. Return value is " + BinaryRegexp.multipleOf3().matcher("000").matches());
     }
 }
