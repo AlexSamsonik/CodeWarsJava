@@ -127,6 +127,9 @@ public class Start {
 //        PangramChecker pangramChecker = new PangramChecker();
 //        System.out.println(pangramChecker.check("The quick brown fox jumps over the lazy dog"));
 
+//        // Valid Phone Number
+//        System.out.println(PhoneNumber.validPhoneNumber("(123) 456-7890"));
+
         System.out.println("BinaryRegexp doesn't working. Return value is " + BinaryRegexp.multipleOf3().matcher("000").matches());
     }
 }
