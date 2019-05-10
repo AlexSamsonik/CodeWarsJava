@@ -1,5 +1,6 @@
 package com.codewars.fundamentals;
 
+import com.codewars.fundamentals.number.Validate;
 import com.codewars.fundamentals.word.BinaryRegexp;
 
 public class Start {
@@ -129,6 +130,9 @@ public class Start {
 
 //        // Valid Phone Number
 //        System.out.println(PhoneNumber.validPhoneNumber("(123) 456-7890"));
+
+//        // Validate Credit Card Number
+//        System.out.println(Validate.validate("208"));
 
         System.out.println("BinaryRegexp doesn't working. Return value is " + BinaryRegexp.multipleOf3().matcher("000").matches());
     }
