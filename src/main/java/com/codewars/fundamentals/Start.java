@@ -123,6 +123,10 @@ public class Start {
 //        smiles.add(":-(");
 //        System.out.println(SmileFaces.countSmileys(smiles));
 
+//        // Detect Pangram
+//        PangramChecker pangramChecker = new PangramChecker();
+//        System.out.println(pangramChecker.check("The quick brown fox jumps over the lazy dog"));
+
         System.out.println("BinaryRegexp doesn't working. Return value is " + BinaryRegexp.multipleOf3().matcher("000").matches());
     }
 }
