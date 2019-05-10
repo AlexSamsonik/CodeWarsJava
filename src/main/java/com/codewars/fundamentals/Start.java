@@ -116,6 +116,13 @@ public class Start {
 //        SpinWords spinWords = new SpinWords();
 //        System.out.println(spinWords.spinWords("Hey fellow warriors"));
 
+//        // Count the smiley faces!
+//        List<String> smiles = new ArrayList<>();
+//        smiles.add(";-)");
+//        smiles.add(":))");
+//        smiles.add(":-(");
+//        System.out.println(SmileFaces.countSmileys(smiles));
+
         System.out.println("BinaryRegexp doesn't working. Return value is " + BinaryRegexp.multipleOf3().matcher("000").matches());
     }
 }
