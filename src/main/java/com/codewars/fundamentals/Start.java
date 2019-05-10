@@ -112,6 +112,10 @@ public class Start {
 //        // Your order, please
 //        System.out.println(Order.order("is2 Thi1s T4est 3a"));
 
+//        // Stop gninnipS My sdroW!
+//        SpinWords spinWords = new SpinWords();
+//        System.out.println(spinWords.spinWords("Hey fellow warriors"));
+
         System.out.println("BinaryRegexp doesn't working. Return value is " + BinaryRegexp.multipleOf3().matcher("000").matches());
     }
 }
