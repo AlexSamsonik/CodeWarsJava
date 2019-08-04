@@ -2,6 +2,7 @@ package com.codewars.fundamentals.number;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.List;
 
 /**
  * There is a queue for the self-checkout tills at the supermarket. Your task is write a function to calculate the total time required for all the customers to check out!
@@ -35,7 +36,7 @@ import java.util.Collections;
  */
 public class SupermarketQueue {
     public static int solveSuperMarketQueue(int[] customers, int n) {
-        ArrayList<Integer> time = new ArrayList<>();
+        List<Integer> time = new ArrayList<>();
         for (int i = 0; i < n; i++) {
             time.add(0);
         }

@@ -1,6 +1,7 @@
 package com.codewars.fundamentals;
 
 import com.codewars.fundamentals.word.BinaryRegexp;
+import com.codewars.fundamentals.word.DirReduction;
 
 public class Start {
 
@@ -44,7 +45,7 @@ public class Start {
 //        System.out.println(SupermarketQueue.solveSuperMarketQueue(new int[] {2,10,10,3,4,5,1},3));
 
 //        // Number of people in the bus
-//        ArrayList<int[]> list = new ArrayList<>();
+//        List<int[]> list = new ArrayList<>();
 //        list.add(new int[] {10,0});
 //        list.add(new int[] {3,5});
 //        list.add(new int[] {2,5});
@@ -145,6 +146,11 @@ public class Start {
 //                {2, 8, 7, 4, 1, 9, 6, 3, 5},
 //                {3, 4, 5, 2, 8, 6, 1, 7, 9}};
 //        System.out.println(SudokuValidator.check(sudoku));
+
+
+
+        // Directions Reduction
+        System.out.println(DirReduction.dirReduc(new String[]{"NORTH", "NORTH", "SOUTH", "SOUTH", "EAST", "WEST", "NORTH", "WEST"}));
 
         System.out.println("BinaryRegexp doesn't working. Return value is " + BinaryRegexp.multipleOf3().matcher("000").matches());
     }

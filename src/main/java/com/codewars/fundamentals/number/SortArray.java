@@ -2,6 +2,7 @@ package com.codewars.fundamentals.number;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.List;
 
 /**
  * Flatten and sort an array
@@ -13,16 +14,16 @@ import java.util.Collections;
  */
 public class SortArray {
     public static int[] flattenAndSort(int[][] array) {
-        ArrayList<Integer> arrayList = new ArrayList<>();
+        List<Integer> list = new ArrayList<>();
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array[i].length; j++) {
-                arrayList.add(array[i][j]);
+                list.add(array[i][j]);
             }
         }
-        Collections.sort(arrayList);
-        int[] result = new int[arrayList.size()];
-        for (int i = 0; i < arrayList.size(); i++) {
-            result[i] = arrayList.get(i);
+        Collections.sort(list);
+        int[] result = new int[list.size()];
+        for (int i = 0; i < list.size(); i++) {
+            result[i] = list.get(i);
         }
         return result;
     }

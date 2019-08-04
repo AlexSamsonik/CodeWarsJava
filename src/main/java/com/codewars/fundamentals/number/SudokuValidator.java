@@ -1,9 +1,6 @@
 package com.codewars.fundamentals.number;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.*;
 
 /**
  * Sudoku Solution Validator
@@ -87,7 +84,7 @@ public class SudokuValidator {
     }
 
     private static int[] checkBlock(int[][] sudoku, int iBlock, int jBlock) {
-        ArrayList list = new ArrayList();
+        List list = new ArrayList();
         for (int i = iBlock; i < iBlock + 3; i++) {
             for (int j = jBlock; j < jBlock + 3; j++) {
                 list.add(sudoku[i][j]);

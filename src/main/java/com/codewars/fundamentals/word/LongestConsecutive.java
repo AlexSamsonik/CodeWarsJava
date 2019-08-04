@@ -3,6 +3,7 @@ package com.codewars.fundamentals.word;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.List;
 
 /**
  * Consecutive strings
@@ -22,7 +23,7 @@ public class LongestConsecutive {
         if ((strarr.length == 0) || (k > strarr.length) || (k <= 0)) {
             return "";
         } else {
-            ArrayList<String> word = new ArrayList<>();
+            List<String> word = new ArrayList<>();
             StringBuilder sb = new StringBuilder();
 
             for (int i = 0; i < strarr.length - (k - 1); i++) {

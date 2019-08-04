@@ -34,7 +34,7 @@ public class BinaryRegexp {
         // Regular expression that matches binary inputs that are multiple of 3
 
         boolean m = Pattern.compile("0*0").matcher("000").matches();
-        System.out.println(m);
+//        System.out.println(m);
 
 
         return Pattern.compile("0*0");
